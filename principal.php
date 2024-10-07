@@ -22,8 +22,6 @@
         <section>
         <?php
         require_once("Post.php");
-
-
         echo "<section>";
         foreach (obtenerPost() as $post) {
             echo "<article>
